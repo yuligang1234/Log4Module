@@ -1,0 +1,4 @@
+E:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\bin\Debug\Napoleon.Log4Module.Log.dll
+E:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\bin\Debug\Napoleon.Log4Module.Log.pdb
+E:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\obj\Debug\Napoleon.Log4Module.Log.dll
+E:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\obj\Debug\Napoleon.Log4Module.Log.pdb
