@@ -9,8 +9,7 @@ namespace Napoleon.Log4Module.Log.Model
         /// <summary>
         ///  Id
         /// </summary>
-        /// Author  :俞立钢
-        /// Company :绍兴标点电子技术有限公司
+        /// Author  :Napoleon
         /// Created :2015-01-07 02:08:25
         public int Id
         {
@@ -22,8 +21,7 @@ namespace Napoleon.Log4Module.Log.Model
         /// <summary>
         ///  操作用户
         /// </summary>
-        /// Author  :俞立钢
-        /// Company :绍兴标点电子技术有限公司
+        /// Author  :Napoleon
         /// Created :2015-01-07 02:08:25
         public string UserName
         {
@@ -35,8 +33,7 @@ namespace Napoleon.Log4Module.Log.Model
         /// <summary>
         ///  用户IP
         /// </summary>
-        /// Author  :俞立钢
-        /// Company :绍兴标点电子技术有限公司
+        /// Author  :Napoleon
         /// Created :2015-01-07 02:08:25
         public string IpAddress
         {
@@ -48,8 +45,7 @@ namespace Napoleon.Log4Module.Log.Model
         /// <summary>
         ///  操作时间
         /// </summary>
-        /// Author  :俞立钢
-        /// Company :绍兴标点电子技术有限公司
+        /// Author  :Napoleon
         /// Created :2015-01-07 02:08:25
         public DateTime OperateTime
         {
@@ -61,8 +57,7 @@ namespace Napoleon.Log4Module.Log.Model
         /// <summary>
         ///  操作类型
         /// </summary>
-        /// Author  :俞立钢
-        /// Company :绍兴标点电子技术有限公司
+        /// Author  :Napoleon
         /// Created :2015-01-07 02:08:25
         public string OperateType
         {
@@ -74,8 +69,7 @@ namespace Napoleon.Log4Module.Log.Model
         /// <summary>
         ///  操作地址
         /// </summary>
-        /// Author  :俞立钢
-        /// Company :绍兴标点电子技术有限公司
+        /// Author  :Napoleon
         /// Created :2015-01-07 02:08:25
         public string OperateUrl
         {
@@ -87,8 +81,7 @@ namespace Napoleon.Log4Module.Log.Model
         /// <summary>
         ///  操作内容
         /// </summary>
-        /// Author  :俞立钢
-        /// Company :绍兴标点电子技术有限公司
+        /// Author  :Napoleon
         /// Created :2015-01-07 02:08:25
         public string OperateContent
         {

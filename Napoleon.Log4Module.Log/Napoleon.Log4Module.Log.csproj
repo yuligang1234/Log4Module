@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Napoleon.Db">
+      <HintPath>..\DLL\Napoleon.Db.dll</HintPath>
+    </Reference>
+    <Reference Include="Napoleon.PublicCommon">
+      <HintPath>..\DLL\Napoleon.PublicCommon.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
@@ -44,8 +50,6 @@
     <Compile Include="Common\LogField.cs" />
     <Compile Include="Common\LogFunc.cs" />
     <Compile Include="DAL\UserDao.cs" />
-    <Compile Include="Helper\SqlHelper.cs" />
-    <Compile Include="Helper\SqlMapper.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="Model\SystemLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

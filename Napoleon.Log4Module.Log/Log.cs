@@ -6,7 +6,7 @@ using Napoleon.Log4Module.Log.Model;
 namespace Napoleon.Log4Module.Log
 {
 
-    public class Log
+    public static class Log
     {
 
         /// <summary>
@@ -15,10 +15,9 @@ namespace Napoleon.Log4Module.Log
         /// <param name="log">日志类</param>
         /// <param name="logType">error/info</param>
         /// <param name="insertType">0-表示只写入数据库，1-表示只写入文本，2-表示写入数据库/文本</param>
-        /// Author  : 俞立钢
-        /// Company : 绍兴标点电子技术有限公司
+        /// Author  : Napoleon
         /// Created : 2015-01-07 15:02:15
-        public static void InsertLog(SystemLog log, LogType logType, InsertType insertType)
+        public static void InsertLog(this SystemLog log, LogType logType, InsertType insertType)
         {
             switch (insertType)
             {
