@@ -2,10 +2,10 @@ E:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\
 E:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\bin\Debug\Napoleon.Log4Module.Log.pdb
 E:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\obj\Debug\Napoleon.Log4Module.Log.dll
 E:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\obj\Debug\Napoleon.Log4Module.Log.pdb
-D:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\obj\Debug\Napoleon.Log4Module.Log.csprojResolveAssemblyReference.cache
 D:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\bin\Debug\Napoleon.Log4Module.Log.dll
 D:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\bin\Debug\Napoleon.Log4Module.Log.pdb
 D:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\bin\Debug\Napoleon.Db.dll
 D:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\bin\Debug\Napoleon.PublicCommon.dll
+D:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\bin\Debug\Newtonsoft.Json.dll
 D:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\obj\Debug\Napoleon.Log4Module.Log.dll
 D:\Napoleon\GitHub\功能模块\日志模块\Log4Module\Napoleon.Log4Module.Log\obj\Debug\Napoleon.Log4Module.Log.pdb

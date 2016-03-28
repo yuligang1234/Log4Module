@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
-using System.IO;
-using System.Web;
 using Napoleon.Db;
-using Napoleon.Log4Module.Log.Common;
 using Napoleon.Log4Module.Log.Model;
 
 namespace Napoleon.Log4Module.Log.DAL
@@ -22,51 +19,6 @@ namespace Napoleon.Log4Module.Log.DAL
         {
             string sql = "Insert into System_Log(UserName,IpAddress,OperateTime,OperateType,OperateUrl,OperateContent) values(@UserName,@IpAddress,@OperateTime,@OperateType,@OperateUrl,@OperateContent)";
             DbHelper.ExecuteSql(sql, log);
-        }
-
-        /// <summary>
-        ///  写入文本
-        /// </summary>
-        /// <param name="log">日志类</param>
-        /// <param name="logType">error/info</param>
-        /// Author  : Napoleon
-        /// Created : 2015-01-07 14:21:34
-        public static void InsertLogIntoTxt(SystemLog log, LogType logType)
-        {
-            string folder = "";
-            switch (logType)
-            {
-                case LogType.Error:
-                    folder = "~/Log/Error/";
-                    break;
-                case LogType.Info:
-                    folder = "~/Log/Info/";
-                    break;
-            }
-            //创建文件夹
-            folder = folder + DateTime.Now.ToString("yyyyMM") + "/";
-            if (!Directory.Exists(HttpContext.Current.Server.MapPath(folder)))
-            {
-                Directory.CreateDirectory(HttpContext.Current.Server.MapPath(folder));
-            }
-            //创建文件
-            string path = folder + DateTime.Now.ToString("yyyyMMdd") + ".txt";
-            if (!File.Exists(HttpContext.Current.Server.MapPath(path)))
-            {
-                File.Create(HttpContext.Current.Server.MapPath(path)).Close();
-            }
-            using (StreamWriter writer = File.AppendText(HttpContext.Current.Server.MapPath(path)))
-            {
-                writer.WriteLine("操作用户: {0}", log.UserName);
-                writer.WriteLine("用户IP: {0}", log.IpAddress);
-                writer.WriteLine("操作时间: {0}", log.OperateTime);
-                writer.WriteLine("操作类型: {0}", log.OperateType);
-                writer.WriteLine("操作地址: {0}", log.OperateUrl);
-                writer.WriteLine("操作内容: {0}", log.OperateContent);
-                writer.WriteLine("____________________________________________________________________");
-                writer.Flush();
-                writer.Close();
-            }
         }
 
         /// <summary>
@@ -158,7 +110,7 @@ namespace Napoleon.Log4Module.Log.DAL
         public static SystemLog GetSystemLog(string id)
         {
             string sql = "select Id,UserName,IpAddress,OperateTime,OperateType,OperateUrl,OperateContent FROM dbo.System_Log where Id=@Id";
-            SystemLog log = DbHelper.GetEnumerable<SystemLog>(sql, new { Id = id });
+            SystemLog log = DbHelper.GetEnumerable<SystemLog>(sql, new { @Id = id });
             return log;
         }
 
