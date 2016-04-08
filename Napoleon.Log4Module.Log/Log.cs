@@ -19,8 +19,8 @@ namespace Napoleon.Log4Module.Log
         /// Created : 2015-01-07 15:02:15
         public static void InsertLog(this SystemLog log, LogType logType, InsertType insertType, string url, string text)
         {
-            AbstractLogs logs = new Logs(log);
-            OperateLog operateLog = new OperateLog(logType, url, text);
+            SubjectLogs logs = new Logs(log);
+            AbserverLog operateLog = new AbserverLog(logType, url, text);
             switch (insertType)
             {
                 case InsertType.DataBase:

@@ -52,14 +52,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbserverLog.cs" />
+    <Compile Include="SubjectLog.cs" />
     <Compile Include="Common\LogField.cs" />
     <Compile Include="Common\LogFunc.cs" />
     <Compile Include="DAL\UserDao.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="Model\Messages.cs" />
     <Compile Include="Model\SystemLog.cs" />
-    <Compile Include="OperateLog.cs" />
+    <Compile Include="AbserverLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
